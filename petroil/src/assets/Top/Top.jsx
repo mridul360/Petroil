@@ -1,6 +1,7 @@
 import React from 'react'
 import Container from '../Layout/Container'
 import { FiPhoneCall } from 'react-icons/fi'
+import { LuMailCheck } from 'react-icons/lu'
 
 const Top = () => {
   return (
@@ -9,6 +10,7 @@ const Top = () => {
       <Container>
         <div className=''>
           <div>
+            <LuMailCheck />
             <h1><a href=""></a>mail@yourcompany.com</h1>
           </div>
           <div>
